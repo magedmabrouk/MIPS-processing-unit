@@ -1,0 +1,64 @@
+{C:/Modeltech_pe_edu_10.4a/examples/Mem WB pipeline.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Mem WB pipeline.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DataMemory
+-- Compiling module MemWBreg
+-- Compiling module WriteBackStage
+-- Compiling module memwbreg_test
+
+Top level modules:
+	memwbreg_test
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/the whole single cycle.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/the whole single cycle.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module InstructionFetch
+-- Compiling module InstructionDecode
+-- Compiling module ALU_processor
+-- Compiling module Beq
+-- Compiling module DataMemory
+-- Compiling module WriteBackStage
+-- Compiling module Processor_test
+
+Top level modules:
+	Processor_test
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/memory access.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/memory access.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Dmemory
+-- Compiling module memAccess_test
+
+Top level modules:
+	memAccess_test
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/tmp3.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/tmp3.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module InstructionFetch
+-- Compiling module IF_ID_reg
+-- Compiling module InstructionDecode
+-- Compiling module ID_EX
+-- Compiling module ALU_processor
+-- Compiling module EX_MEM_reg
+-- Compiling module DataMemory
+-- Compiling module Mem_WB_reg
+-- Compiling module WriteBackStage
+-- Compiling module Processor_test
+
+Top level modules:
+	Processor_test
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Hazard Detection Unit .v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Hazard Detection Unit .v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module HazardDetector
+-- Compiling module hazardDetec_test
+
+Top level modules:
+	hazardDetec_test
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/control unit.v} {1 {vlog -work work -stats=none {C:/Modeltech_pe_edu_10.4a/examples/control unit.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module control_unit
+-- Compiling module control_unit_test
+
+Top level modules:
+	control_unit_test
+
+} {} {}}
